@@ -1,0 +1,81 @@
+.sideBar {
+  flex: 1;
+  border-right: 0.6px solid #44475a;
+  min-height: 100vh;
+
+  .top {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #6272a4;
+    }
+  }
+  hr {
+    height: 0;
+    border: 0.6px solid #6272a4;
+  }
+  .center {
+    padding: 10px;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      .title {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #6272a4;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        color: #282a36;
+        &:hover {
+          background-color: #50fa7b;
+          border-radius: 5px;
+        }
+        .icon {
+          font-size: 1.2rem;
+          color: #44475a;
+        }
+        span {
+          margin-left: 0.7rem;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem;
+
+    .colorOption {
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 5px;
+      border: 1px solid #44475a;
+      cursor: pointer;
+      margin: 1rem;
+      margin-top: 100%;
+
+      &:nth-child(1) {
+        background-color: #282a36;
+      }
+      &:nth-child(2) {
+        background-color: #f8f8f2;
+      }
+    }
+  }
+}
