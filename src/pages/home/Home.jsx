@@ -9,10 +9,12 @@ const Home = () => {
       <Sidebar />
       <div className="home-container">
         <Navbar />
-        <Widget />
-        <Widget />
-        <Widget />
-        <Widget />
+        <div className="widgets">
+          <Widget type="user" />
+          <Widget type="order" />
+          <Widget type="earning" />
+          <Widget type="balance" />
+        </div>
       </div>
     </div>
   );
