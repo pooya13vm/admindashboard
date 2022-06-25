@@ -3,7 +3,6 @@ import {
   Area,
   AreaChart,
   XAxis,
-  YAxis,
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
@@ -35,11 +34,11 @@ const data = [
   },
 ];
 
-const Chart = () => {
+const Chart = ({ aspect, title }) => {
   return (
     <div className="chart">
-      <div className="title">Last six months (Revenue)</div>
-      <ResponsiveContainer width="100%" height="100%">
+      <div className="title">{title}</div>
+      <ResponsiveContainer width="100%" height="100%" aspect={aspect}>
         <AreaChart
           width="100%"
           height={250}

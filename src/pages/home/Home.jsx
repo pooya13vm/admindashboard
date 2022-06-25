@@ -9,9 +9,7 @@ import TableComponent from "../../components/table/Table";
 const Home = () => {
   return (
     <div className="home">
-      <Sidebar />
       <div className="home-container">
-        <Navbar />
         <div className="widgets">
           <Widget type="user" />
           <Widget type="order" />
@@ -20,7 +18,7 @@ const Home = () => {
         </div>
         <div className="charts">
           <Featured />
-          <Chart />
+          <Chart title="Last six months (Revenue)" />
         </div>
         <div className="listContainer">
           <div className="listTitle">Latest Transactions</div>
