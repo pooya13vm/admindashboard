@@ -1,11 +1,11 @@
 .navbar {
-  height: 3.5rem;
-  border-bottom: 2px solid #44475a;
+  height: 3.4rem;
+  border-bottom: 1px solid #293c82;
   display: flex;
   align-items: center;
   font-size: 1.2rem;
-  color: #44475a;
-  background-color: #f8f8f2;
+  color: #293c82;
+  background-color: #fafafa;
 
   .wrapper {
     padding: 1.3rem;
@@ -16,11 +16,12 @@
 
     .search {
       display: flex;
-      align-items: center;
-      border: 1px solid lightgray;
+      justify-content: space-between;
+      border: 1px solid #293c82;
       padding: 3px;
-      background-color: white;
+      background-color: #fafafa;
       border-radius: 3px;
+      width: 40%;
 
       input {
         border: none;

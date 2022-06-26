@@ -3,6 +3,7 @@
   .cellWrapper {
     display: flex;
     align-items: center;
+    color: #293c82;
 
     .image {
       width: 1.8rem;
@@ -18,12 +19,12 @@
     border-radius: 5px;
 
     &.Pending {
-      background-color: #bd93f93c;
-      color: #bd93f9;
+      background-color: #7f37ba41;
+      color: #7f37ba;
     }
     &.Approved {
-      background-color: #6273a42e;
-      color: #6272a4;
+      background-color: #293c824e;
+      color: #293c82;
     }
   }
 }

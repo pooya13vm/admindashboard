@@ -1,10 +1,31 @@
 .dataTable {
-  height: 500px;
+  height: 80vh;
   padding: 1.2rem;
+
+  .dataTableTitle {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #293c82;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      color: #fafafa;
+      background-color: #293c82;
+      padding: 6px;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
 
   .cellWithImg {
     display: flex;
     align-items: center;
+    color: #293c82;
 
     .cellImg {
       width: 32px;
@@ -19,15 +40,15 @@
     border-radius: 5px;
     &.active {
       background-color: #50fa7a37;
-      color: #50fa7b;
+      color: #7f37ba;
     }
     &.pending {
       background-color: #bd93f92e;
-      color: #bd93f9;
+      color: #7f37ba;
     }
     &.passive {
       background-color: #ffb86c32;
-      color: #ffb86c;
+      color: #7f37ba;
     }
   }
   .cellAction {

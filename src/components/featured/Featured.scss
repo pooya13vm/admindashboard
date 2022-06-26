@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #282a36;
+    color: #293c82;
 
     .title {
       font-size: 1rem;
@@ -28,7 +28,7 @@
     }
     .title {
       font-weight: 600;
-      color: #6272a4;
+      color: #3a55ba;
     }
     .amount {
       font-size: 1.3rem;
@@ -36,7 +36,7 @@
     .desc {
       font-weight: 300;
       font-size: 0.8rem;
-      color: #6272a4;
+      color: #3a55ba;
       text-align: center;
     }
     .summary {
@@ -57,11 +57,15 @@
           align-items: center;
           margin-top: 0.8rem;
           font-size: 0.8rem;
+          padding: 3px;
+          border-radius: 3px;
           &.positive {
-            color: #50fa7b;
+            color: #3a55ba;
+            background-color: #50fa7a37;
           }
           &.negative {
             color: #ff5555;
+            background-color: #ff55553d;
           }
         }
       }

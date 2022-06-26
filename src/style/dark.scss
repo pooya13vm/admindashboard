@@ -1,0 +1,176 @@
+.app.dark {
+  background-color: #282a36;
+  color: #f8f8f2 !important;
+  .chart {
+    .title {
+      color: #f8f8f2;
+    }
+
+    .chartGrid {
+      stroke: rgba(228, 228, 228, 0.219);
+    }
+  }
+  .home {
+    .listTitle {
+      color: #f8f8f2;
+    }
+  }
+
+  .table {
+    background-color: #282a36;
+    .cellWrapper {
+      color: #f8f8f2;
+    }
+    .tableCell {
+      color: #f8f8f2;
+    }
+    .status {
+      &.Pending {
+        color: #8be9fd;
+      }
+      &.Approved {
+        color: #50fa7b;
+      }
+    }
+  }
+  .navbar {
+    background-color: #282a36;
+    color: #f8f8f2;
+    border-bottom: 1px solid #f8f8f2;
+
+    .search {
+      border-color: #f8f8f2;
+      color: #f8f8f2;
+      background-color: #282a36;
+
+      input {
+        &::placeholder {
+          color: #f8f8f2;
+        }
+      }
+    }
+  }
+
+  .sideBar {
+    background-color: #282a36;
+    border-right: 1px solid #f8f8f2;
+
+    .logo {
+      color: #f8f8f2;
+    }
+
+    hr {
+      border: 1px solid #f8f8f2;
+    }
+    .title {
+      color: #ff79c6;
+    }
+    li {
+      color: #f8f8f2;
+      &:hover {
+        color: #50fa7b;
+      }
+      .icon {
+        color: #f8f8f2;
+      }
+    }
+  }
+  .widget {
+    .title {
+      color: #f8f8f2;
+    }
+    .counter {
+      color: #8be9fd;
+    }
+    .link {
+      color: #f1fa8c;
+    }
+    .percentage {
+      color: #50fa7b;
+    }
+  }
+  .featured {
+    .top {
+      color: #f8f8f2;
+    }
+    .title {
+      color: #f8f8f2;
+    }
+    .amount {
+      color: #8be9fd;
+    }
+    .desc {
+      color: #f8f8f2;
+    }
+    .summary {
+      .itemTitle {
+        color: #f1fa8c;
+      }
+      .itemResult {
+        &.positive {
+          color: #50fa7b;
+        }
+        &.negative {
+          color: #ff5555;
+        }
+      }
+    }
+  }
+  .dataTable {
+    stroke: #f8f8f2;
+    .dataTableTitle {
+      color: #ff79c6;
+    }
+    .cellWithImg {
+      color: #f8f8f2;
+    }
+    .cellWithStatus {
+      color: #f8f8f2;
+    }
+    .css-204u17-MuiDataGrid-main {
+      color: #f8f8f2;
+    }
+    .cellWithStatus {
+      &.active {
+        color: #50fa7b;
+      }
+      &.pending {
+        color: #8be9fd;
+      }
+      &.passive {
+        color: #f1fa8c;
+      }
+    }
+    .viewBtn {
+      color: #8be9fd;
+    }
+  }
+  .new {
+    h3 {
+      color: #ff79c6;
+    }
+  }
+  .single {
+    .top {
+      .left {
+        .title {
+          color: #f8f8f2;
+        }
+        .editBtn {
+          color: #282a36;
+          background-color: #f8f8f2;
+        }
+        .item {
+          .details {
+            h3 {
+              color: #8be9fd;
+            }
+            .detailItem {
+              color: #f8f8f2;
+            }
+          }
+        }
+      }
+    }
+  }
+}

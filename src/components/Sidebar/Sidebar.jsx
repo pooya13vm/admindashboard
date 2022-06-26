@@ -11,30 +11,42 @@ import AddToQueueIcon from "@mui/icons-material/AddToQueue";
 import SettingsIcon from "@mui/icons-material/Settings";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
+import AdminPanelSettingsIcon from "@mui/icons-material/AdminPanelSettings";
+import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({ darkMode }) => {
   return (
     <div className="sideBar">
       <div className="top">
-        <span className="logo">Admin Panel</span>
+        <span className="logo">
+          <AdminPanelSettingsIcon />
+          Admin Panel
+        </span>
       </div>
       <hr />
       <div className="center">
         <ul>
           <p className="title">Main</p>
-          <li>
-            <DashboardIcon className="icon" />
-            <span>dashboard</span>
-          </li>
+          <Link to="/home" style={{ textDecoration: "none" }}>
+            <li>
+              <DashboardIcon className="icon" />
+              <span>dashboard</span>
+            </li>
+          </Link>
           <p className="title">Lists</p>
-          <li>
-            <PeopleAltIcon className="icon" />
-            <span>Users</span>
-          </li>
-          <li>
-            <PrecisionManufacturingIcon className="icon" />
-            <span>Products</span>
-          </li>
+          <Link to="/users" style={{ textDecoration: "none" }}>
+            <li>
+              <PeopleAltIcon className="icon" />
+              <span>Users</span>
+            </li>
+          </Link>
+          <Link to="/product" style={{ textDecoration: "none" }}>
+            <li>
+              <PrecisionManufacturingIcon className="icon" />
+              <span>Products</span>
+            </li>
+          </Link>
+
           <li>
             <ShoppingCartCheckoutIcon className="icon" />
             <span>Orders</span>
@@ -77,8 +89,8 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="bottom">
-        <div className="colorOption"></div>
-        <div className="colorOption"></div>
+        <div className="colorOption" onClick={() => darkMode(true)}></div>
+        <div className="colorOption" onClick={() => darkMode(false)}></div>
       </div>
     </div>
   );

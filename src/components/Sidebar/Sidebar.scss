@@ -1,26 +1,29 @@
 .sideBar {
-  flex: 1;
-  border-right: 0.6px solid #44475a;
+  // flex: 1;
+  width: fit-content;
+  border-right: 1px solid #293c82;
   min-height: 100vh;
+  background-color: #fafafa;
 
   .top {
-    height: 4rem;
+    height: 3.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 4rem;
 
     .logo {
       font-size: 1.4rem;
       font-weight: bold;
-      color: #6272a4;
+      color: #293c82;
     }
   }
   hr {
     height: 0;
-    border: 0.6px solid #6272a4;
+    border: 1px solid #293c82;
   }
   .center {
-    padding: 10px;
+    padding: 1rem 1.4rem;
     ul {
       list-style: none;
       padding: 0;
@@ -29,7 +32,7 @@
       .title {
         font-size: 1rem;
         font-weight: bold;
-        color: #6272a4;
+        color: #293c82;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
       }
@@ -39,14 +42,14 @@
         align-items: center;
         padding: 5px;
         cursor: pointer;
-        color: #282a36;
+        color: #472782;
         &:hover {
-          background-color: #50fa7b;
+          background-color: #3a56ba5f;
           border-radius: 5px;
         }
         .icon {
           font-size: 1.2rem;
-          color: #44475a;
+          color: #9737ba;
         }
         span {
           margin-left: 0.7rem;
@@ -58,7 +61,6 @@
   .bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0.8rem;
 
     .colorOption {
@@ -68,7 +70,6 @@
       border: 1px solid #44475a;
       cursor: pointer;
       margin: 1rem;
-      margin-top: 100%;
 
       &:nth-child(1) {
         background-color: #282a36;
