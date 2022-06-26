@@ -24,4 +24,12 @@ To run this project, install it locally using npm:
 - $ npm install
 - $ npm start
 ***
-![alt text](https://github.com/pooya13vm/admindashboard/githubImg/screen1.png)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen1.png?raw=true)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen2.png?raw=true)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen3.png?raw=true)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen4.png?raw=true)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen5.png?raw=true)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen6.png?raw=true)
+![alt text](https://github.com/pooya13vm/admindashboard/blob/main/githubImg/screen7.png?raw=true)
+
+
